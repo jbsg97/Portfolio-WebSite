@@ -1,7 +1,7 @@
-from flask import Flask
+from flask import Flask, render_template
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='./app/templates/', static_folder='./app/static/')
 
 @app.route("/")
-def health_check():
-    return "Welcome to my portfolio"
+def index():
+    return render_template('index.html')

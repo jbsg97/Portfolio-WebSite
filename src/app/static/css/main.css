@@ -1,0 +1,14 @@
+footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:50px;
+    width:100%;
+}
+
+.bg-image {
+    background-color: #12263A;
+    height: 400px;
+    margin-top: 0px;
+}
+background-image: url('/static/images/banner.jpg');
